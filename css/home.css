@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://use.typekit.net/dbo6snm.css");
+@import url("https://use.typekit.net/dbo6snm.css");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image:url(../images/bg.png);
+    background-size:auto;
+    
+}
+
+.navbar {
+    font-size: 1.5vw;
+}
+
+.navText {
+    font-weight: 700;
+    font-style: normal; 
+}
+
+.headerImage {
+    background-image: url("../images/hero.png");
+    width: 100%;
+    min-height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+  }
+
+  #hero {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    color: #321f15;  
+    font-size: 400%;  
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    text-align: center;
+    line-height: 4.5rem;
+  }
+
+#welcome {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5vw;
+  }
+
+.card-title {
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 1rem;
+}
+.TitleHR {
+    color: #44c4bd; 
+}
+.myFilter{
+    background-color: #b8b7b7;
+}
+#foBg {
+    background-color: gainsboro;
+    opacity: 70%;
+    border-radius: 0%;
+    width: 100%;
+}
+
+.MLLine {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    color: #44c4bd;
+    opacity: 100%;
+}
+/* .conImg {
+    
+    
+    box-sizing:border-box;
+    width: 50%;
+    height: 50%;
+    
+} */
+.potwImg{
+    padding: 0%;
+    
+}
+.conTxt {
+    width: 30%;
+}
+#upLine {
+    margin-left: 35%;
+}
+#upBtn {
+    background-color: #44c4bd;  
+}
+.mybtn{
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+.myForm{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+.myRequest{
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.sticky {
+    margin-top: auto;
+}
+
+.faqCard {
+    border-color: #44c4bd;
+}
+.teamImg {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .potwImg{
+        padding: 0px;
+        margin: 0px;
+        width: 50%;
+    }
+}
