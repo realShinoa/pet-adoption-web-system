@@ -617,11 +617,11 @@
 <body>
     <?=$nav ?>
     <div class="headerImage mb-5">
-        <p id="hero">LIVE FUR <br> A CAUSE!</p>
+        <p id="hero">PAWFECT <br> - MATCH -</p>
     </div>
 
     <div class="text-center">
-        <h2 class="text-center mt-5" id="welcome">Welcome, <?= $name ?>!</h2>
+        <h2 class="text-center mt-5" id="welcome">Welcome <?= $name ?>!</h2>
         <hr class="MLLine" style="width:20vw;">
     </div>
 

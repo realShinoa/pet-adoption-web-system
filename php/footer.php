@@ -8,7 +8,7 @@ $footer ='<footer class="mt-5 sticky">
                 <a class="btn btn-dark p-1 m-1" style="width: 3%;" href="#" role="button"><img src="../images/google.png" width="75%"  class="m-1"></a>
             </div>
             <div class="card-footer text-body-secondary p-1">
-                &copy; Stefanie Sarközi, Marvin van Dyck, Lukas Lonauer, Michele Laneve
+                &copy; University of Perpetual Help College of Computer Studies
             </div>
         </div>
     </footer>';
